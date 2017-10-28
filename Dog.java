@@ -9,8 +9,7 @@ class Dog{
 public static void main( String[] args ) {
     Dog aDog = new Dog("Max");
     System.out.println(aDog.getName());
-    // we pass the object to foo
-
+   
     foo(aDog);
     // aDog variable is still pointing to the "Max" dog when foo(...) returns
     if (aDog.getName().equals("Max")) {  // true, java passes by value
