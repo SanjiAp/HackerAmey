@@ -1,4 +1,5 @@
 import java.util.*;
+//pair
 class findPairs2{
 	public static void main(String[] args) {
 		int[] arr = new int[]{3, 4, 7, 1, 2, 9, 8};
