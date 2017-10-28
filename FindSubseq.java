@@ -9,6 +9,7 @@ class FindSubseq{
 
 	}	
 	//arr[i]<arr[j]>arr[k] i<j<k
+	//ready
 	public void getSubseqThree(int []arr){
 		//Scan array from left and right side storing the indices of the min & max
 		int []left = new int[arr.length];
